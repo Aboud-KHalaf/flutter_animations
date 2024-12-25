@@ -1,5 +1,6 @@
 import 'package:anmations/animations/animated_aligment_animation_page.dart';
 import 'package:anmations/animations/animated_container_animation_page.dart';
+import 'package:anmations/animations/animated_opacity_animation_page.dart';
 import 'package:anmations/animations/animated_text_style_animation_page.dart';
 import 'package:anmations/models/page.dart';
 import 'package:flutter/material.dart';
@@ -24,6 +25,8 @@ class AnmiationsApp extends StatelessWidget {
             const AnimatedContainerAnimationPage(),
         AnimatedTextStyleAnimationPage.id: (context) =>
             const AnimatedTextStyleAnimationPage(),
+        AnimatedOpacityAnimationPage.id: (context) =>
+            const AnimatedOpacityAnimationPage(),
       },
     );
   }

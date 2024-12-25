@@ -1,5 +1,6 @@
 import 'package:anmations/animations/animated_aligment_animation_page.dart';
 import 'package:anmations/animations/animated_container_animation_page.dart';
+import 'package:anmations/animations/animated_opacity_animation_page.dart';
 import 'package:anmations/animations/animated_text_style_animation_page.dart';
 
 class Page {
@@ -22,6 +23,8 @@ final List<Page> pages = [
   Page(
       pageName: 'animated text style',
       pageRouteName: AnimatedTextStyleAnimationPage.id),
-  Page(pageName: 'animated aligh', pageRouteName: 'animated_align'),
+  Page(
+      pageName: 'animated opacity',
+      pageRouteName: AnimatedOpacityAnimationPage.id),
   Page(pageName: 'animated aligh', pageRouteName: 'animated_align'),
 ];
