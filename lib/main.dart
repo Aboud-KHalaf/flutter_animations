@@ -1,5 +1,6 @@
 import 'package:anmations/animations/animated_aligment_animation_page.dart';
 import 'package:anmations/animations/animated_container_animation_page.dart';
+import 'package:anmations/animations/animated_cross_fade_animation_page.dart';
 import 'package:anmations/animations/animated_opacity_animation_page.dart';
 import 'package:anmations/animations/animated_pading_animation_page.dart';
 import 'package:anmations/animations/animated_physical_model_animation_page.dart';
@@ -39,6 +40,8 @@ class AnmiationsApp extends StatelessWidget {
             const AnimatedPositionedAnimationPage(),
         AnimatedPositionedDirectionalAnimationPage.id: (context) =>
             const AnimatedPositionedDirectionalAnimationPage(),
+        AnimatedCrossFadeAnimationPage.id: (context) =>
+            const AnimatedCrossFadeAnimationPage(),
       },
     );
   }
