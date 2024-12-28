@@ -1,3 +1,4 @@
+import 'package:anmations/animations/excplist_animations/positioned_transation_animation_page.dart';
 import 'package:anmations/animations/implicit_animations/animated_aligment_animation_page.dart';
 import 'package:anmations/animations/implicit_animations/animated_container_animation_page.dart';
 import 'package:anmations/animations/implicit_animations/animated_cross_fade_animation_page.dart';
@@ -59,5 +60,9 @@ final List<Page> pages = [
   Page(
     pageName: 'animated list',
     pageRouteName: AnimatedListAnimationPage.id,
+  ),
+  Page(
+    pageName: 'positioned transation',
+    pageRouteName: PositionedTransationAnimationPage.id,
   ),
 ];

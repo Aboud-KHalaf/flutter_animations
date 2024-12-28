@@ -1,3 +1,4 @@
+import 'package:anmations/animations/excplist_animations/positioned_transation_animation_page.dart';
 import 'package:anmations/animations/implicit_animations/animated_aligment_animation_page.dart';
 import 'package:anmations/animations/implicit_animations/animated_container_animation_page.dart';
 import 'package:anmations/animations/implicit_animations/animated_cross_fade_animation_page.dart';
@@ -48,6 +49,8 @@ class AnmiationsApp extends StatelessWidget {
             const AnimatedSwitcherAnimationPage(),
         AnimatedListAnimationPage.id: (context) =>
             const AnimatedListAnimationPage(),
+        PositionedTransationAnimationPage.id: (context) =>
+            const PositionedTransationAnimationPage(),
       },
     );
   }
