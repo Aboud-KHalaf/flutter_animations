@@ -1,4 +1,5 @@
 import 'package:anmations/animations/excplist_animations/positioned_transation_animation_page.dart';
+import 'package:anmations/animations/excplist_animations/rotation_transation_animation_page.dart';
 import 'package:anmations/animations/excplist_animations/size_transation_animation_page.dart';
 import 'package:anmations/animations/implicit_animations/animated_aligment_animation_page.dart';
 import 'package:anmations/animations/implicit_animations/animated_container_animation_page.dart';
@@ -54,6 +55,8 @@ class AnmiationsApp extends StatelessWidget {
             const PositionedTransationAnimationPage(),
         SizeTransationAnimationPage.id: (context) =>
             const SizeTransationAnimationPage(),
+        RotationTransationAnimationPage.id: (context) =>
+            const RotationTransationAnimationPage(),
       },
     );
   }
