@@ -1,4 +1,5 @@
 import 'package:anmations/animations/builders/animation_builder_page.dart';
+import 'package:anmations/animations/excplist_animations/fade_transation_animation_page.dart';
 import 'package:anmations/animations/excplist_animations/positioned_transation_animation_page.dart';
 import 'package:anmations/animations/excplist_animations/rotation_transation_animation_page.dart';
 import 'package:anmations/animations/excplist_animations/size_transation_animation_page.dart';
@@ -75,6 +76,10 @@ final List<Page> pages = [
   Page(
     pageName: 'rotation transation',
     pageRouteName: RotationTransationAnimationPage.id,
+  ),
+  Page(
+    pageName: 'fade transation',
+    pageRouteName: FadeTransationAnimationPage.id,
   ),
   Page(
     pageName: 'animation builder',
