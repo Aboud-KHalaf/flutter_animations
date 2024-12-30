@@ -1,6 +1,7 @@
 import 'package:anmations/animations/builders/animation_builder_page.dart';
 import 'package:anmations/animations/excplist_animations/default_text_style_transation_animation_page.dart';
 import 'package:anmations/animations/excplist_animations/fade_transation_animation_page.dart';
+import 'package:anmations/animations/excplist_animations/indexed_stack_transation_animation_page.dart';
 import 'package:anmations/animations/excplist_animations/positioned_transation_animation_page.dart';
 import 'package:anmations/animations/excplist_animations/rotation_transation_animation_page.dart';
 import 'package:anmations/animations/excplist_animations/size_transation_animation_page.dart';
@@ -85,6 +86,10 @@ final List<Page> pages = [
   Page(
     pageName: 'default text style transation',
     pageRouteName: DefaultTextStyleTransationAnimationPage.id,
+  ),
+  Page(
+    pageName: 'indexed stack transation',
+    pageRouteName: IndexedStackTransationAnimationPage.id,
   ),
   Page(
     pageName: 'animation builder',
