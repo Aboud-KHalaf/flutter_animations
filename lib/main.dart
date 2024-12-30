@@ -1,4 +1,5 @@
 import 'package:anmations/animations/builders/animation_builder_page.dart';
+import 'package:anmations/animations/excplist_animations/default_text_style_transation_animation_page.dart';
 import 'package:anmations/animations/excplist_animations/fade_transation_animation_page.dart';
 import 'package:anmations/animations/excplist_animations/positioned_transation_animation_page.dart';
 import 'package:anmations/animations/excplist_animations/rotation_transation_animation_page.dart';
@@ -59,6 +60,8 @@ class AnmiationsApp extends StatelessWidget {
             const SizeTransationAnimationPage(),
         RotationTransationAnimationPage.id: (context) =>
             const RotationTransationAnimationPage(),
+        DefaultTextStyleTransationAnimationPage.id: (context) =>
+            const DefaultTextStyleTransationAnimationPage(),
         AnimationBuilderPage.id: (context) => const AnimationBuilderPage(),
         FadeTransationAnimationPage.id: (context) =>
             const FadeTransationAnimationPage(),
